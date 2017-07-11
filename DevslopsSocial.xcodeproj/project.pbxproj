@@ -37,6 +37,7 @@
 		4FABC8651F124ECC00764860 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4FC203DF1F12ADAF00FD149A /* FancyTextFeild.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyTextFeild.swift; sourceTree = "<group>"; };
 		4FC203E11F12B1F000FD149A /* FancySignInBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancySignInBtn.swift; sourceTree = "<group>"; };
+		4FC203E31F13953C00FD149A /* DevslopsSocial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DevslopsSocial.entitlements; sourceTree = "<group>"; };
 		A8243C3CEFB5D3743AAB3C33 /* Pods_DevslopsSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevslopsSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,6 +74,7 @@
 		4F130D021F0E507500E7D5DC /* DevslopsSocial */ = {
 			isa = PBXGroup;
 			children = (
+				4FC203E31F13953C00FD149A /* DevslopsSocial.entitlements */,
 				4FABC8641F124E7200764860 /* Utitlities */,
 				4F130D191F0E550600E7D5DC /* Model */,
 				4F130D181F0E54F500E7D5DC /* View */,
@@ -175,6 +177,11 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 9J43QTT374;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
