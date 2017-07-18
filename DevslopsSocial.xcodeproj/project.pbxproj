@@ -14,6 +14,10 @@
 		4F130D0E1F0E507500E7D5DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F130D0C1F0E507500E7D5DC /* LaunchScreen.storyboard */; };
 		4F130D161F0E518100E7D5DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F130D151F0E518100E7D5DC /* GoogleService-Info.plist */; };
 		4F2F54411F12932D00DA8EC7 /* RoundedBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F54401F12932D00DA8EC7 /* RoundedBtn.swift */; };
+		4F5C913E1F163F2A00987EBD /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5C913D1F163F2A00987EBD /* FeedVC.swift */; };
+		4F5C91401F197AA000987EBD /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5C913F1F197A9F00987EBD /* CircleView.swift */; };
+		4F5C91421F1A7FFF00987EBD /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5C91411F1A7FFF00987EBD /* PostCell.swift */; };
+		4F8917FF1F1E1778001BD8FF /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8917FE1F1E1778001BD8FF /* DataService.swift */; };
 		4FABC8631F124DD000764860 /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FABC8621F124DD000764860 /* FancyView.swift */; };
 		4FABC8661F124ECC00764860 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FABC8651F124ECC00764860 /* Constants.swift */; };
 		4FC203E01F12ADB000FD149A /* FancyTextFeild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC203DF1F12ADAF00FD149A /* FancyTextFeild.swift */; };
@@ -33,6 +37,10 @@
 		4F130D0F1F0E507500E7D5DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F130D151F0E518100E7D5DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4F2F54401F12932D00DA8EC7 /* RoundedBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedBtn.swift; sourceTree = "<group>"; };
+		4F5C913D1F163F2A00987EBD /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		4F5C913F1F197A9F00987EBD /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		4F5C91411F1A7FFF00987EBD /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		4F8917FE1F1E1778001BD8FF /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		4FABC8621F124DD000764860 /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
 		4FABC8651F124ECC00764860 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4FC203DF1F12ADAF00FD149A /* FancyTextFeild.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyTextFeild.swift; sourceTree = "<group>"; };
@@ -74,6 +82,7 @@
 		4F130D021F0E507500E7D5DC /* DevslopsSocial */ = {
 			isa = PBXGroup;
 			children = (
+				4F8917FD1F1E1730001BD8FF /* Services */,
 				4FC203E31F13953C00FD149A /* DevslopsSocial.entitlements */,
 				4FABC8641F124E7200764860 /* Utitlities */,
 				4F130D191F0E550600E7D5DC /* Model */,
@@ -93,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				4F130D051F0E507500E7D5DC /* SignInVC.swift */,
+				4F5C913D1F163F2A00987EBD /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -104,6 +114,8 @@
 				4F2F54401F12932D00DA8EC7 /* RoundedBtn.swift */,
 				4FC203DF1F12ADAF00FD149A /* FancyTextFeild.swift */,
 				4FC203E11F12B1F000FD149A /* FancySignInBtn.swift */,
+				4F5C913F1F197A9F00987EBD /* CircleView.swift */,
+				4F5C91411F1A7FFF00987EBD /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -113,6 +125,14 @@
 			children = (
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		4F8917FD1F1E1730001BD8FF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4F8917FE1F1E1778001BD8FF /* DataService.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 		4FABC8641F124E7200764860 /* Utitlities */ = {
@@ -179,7 +199,7 @@
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -270,13 +290,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F5C91401F197AA000987EBD /* CircleView.swift in Sources */,
 				4F130D061F0E507500E7D5DC /* SignInVC.swift in Sources */,
 				4FC203E01F12ADB000FD149A /* FancyTextFeild.swift in Sources */,
 				4F130D041F0E507500E7D5DC /* AppDelegate.swift in Sources */,
 				4F2F54411F12932D00DA8EC7 /* RoundedBtn.swift in Sources */,
+				4F8917FF1F1E1778001BD8FF /* DataService.swift in Sources */,
+				4F5C913E1F163F2A00987EBD /* FeedVC.swift in Sources */,
 				4FC203E21F12B1F000FD149A /* FancySignInBtn.swift in Sources */,
 				4FABC8631F124DD000764860 /* FancyView.swift in Sources */,
 				4FABC8661F124ECC00764860 /* Constants.swift in Sources */,
+				4F5C91421F1A7FFF00987EBD /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +426,7 @@
 			baseConfigurationReference = 13C314F89298568D2CAD973A /* Pods-DevslopsSocial.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DevslopsSocial/DevslopsSocial.entitlements;
 				DEVELOPMENT_TEAM = 9J43QTT374;
 				INFOPLIST_FILE = DevslopsSocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -416,6 +441,7 @@
 			baseConfigurationReference = 041381EB13797D78CBD64494 /* Pods-DevslopsSocial.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DevslopsSocial/DevslopsSocial.entitlements;
 				DEVELOPMENT_TEAM = 9J43QTT374;
 				INFOPLIST_FILE = DevslopsSocial/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
