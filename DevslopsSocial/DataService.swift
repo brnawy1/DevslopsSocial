@@ -32,6 +32,7 @@ class DataService {
     }
     
     func createFirebaseDBUser(uid: String, userData: Dictionary<String, String>) {
+        //We used this is to show POSTS and any CHILDREN under it in the TERMINAL
         REF_USERS.child(uid).updateChildValues(userData)
     }
     

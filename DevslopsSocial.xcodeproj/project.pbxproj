@@ -14,6 +14,7 @@
 		4F130D0E1F0E507500E7D5DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F130D0C1F0E507500E7D5DC /* LaunchScreen.storyboard */; };
 		4F130D161F0E518100E7D5DC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F130D151F0E518100E7D5DC /* GoogleService-Info.plist */; };
 		4F2F54411F12932D00DA8EC7 /* RoundedBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F54401F12932D00DA8EC7 /* RoundedBtn.swift */; };
+		4F47031A1F20B8F6008A9FEC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4703191F20B8F6008A9FEC /* Post.swift */; };
 		4F5C913E1F163F2A00987EBD /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5C913D1F163F2A00987EBD /* FeedVC.swift */; };
 		4F5C91401F197AA000987EBD /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5C913F1F197A9F00987EBD /* CircleView.swift */; };
 		4F5C91421F1A7FFF00987EBD /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5C91411F1A7FFF00987EBD /* PostCell.swift */; };
@@ -37,6 +38,7 @@
 		4F130D0F1F0E507500E7D5DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F130D151F0E518100E7D5DC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4F2F54401F12932D00DA8EC7 /* RoundedBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedBtn.swift; sourceTree = "<group>"; };
+		4F4703191F20B8F6008A9FEC /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		4F5C913D1F163F2A00987EBD /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		4F5C913F1F197A9F00987EBD /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		4F5C91411F1A7FFF00987EBD /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		4F130D191F0E550600E7D5DC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4F4703191F20B8F6008A9FEC /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				4F5C91401F197AA000987EBD /* CircleView.swift in Sources */,
 				4F130D061F0E507500E7D5DC /* SignInVC.swift in Sources */,
 				4FC203E01F12ADB000FD149A /* FancyTextFeild.swift in Sources */,
+				4F47031A1F20B8F6008A9FEC /* Post.swift in Sources */,
 				4F130D041F0E507500E7D5DC /* AppDelegate.swift in Sources */,
 				4F2F54411F12932D00DA8EC7 /* RoundedBtn.swift in Sources */,
 				4F8917FF1F1E1778001BD8FF /* DataService.swift in Sources */,
